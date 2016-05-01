@@ -1,5 +1,197 @@
 <!DOCTYPE html>
-<html>
-<head></head>
-<body>Hello world</body>
-</html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
+</head>
+<body>
+<center>
+  <div id="p1" class="container-fluid">
+  <h1>Welcome to Marvel's page</h1>      
+  <p>This article is about the comic book company using this name beginning in 1961. For the earlier comic book series, see Marvel Mystery Comics.</p> 
+  <p>Marvel counts among its characters such well-known superheroes as Spider-Man, Iron Man, Captain America, Wolverine, Thor, Hulk, Ant-Man, such teams as the Avengers, the Guardians of the Galaxy, the Fantastic Four, the Inhumans and the X-Men, and antagonists such as Doctor Doom, The Enchantress, Green Goblin, Ultron, Doctor Octopus, Thanos, Magneto and Loki. Most of Marvel's fictional characters operate in a single reality known as the Marvel Universe, with locations that mirror real-life cities. Characters such as Spider-Man, the Fantastic Four, the Avengers, Daredevil and Doctor Strange are based in New York City, whereas the X-Men have historically been based in Salem Center, New York and Hulk's stories often have been set in the American Southwest.</p>           
+</div>
+</center>
+
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="3" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="4" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="5" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="6" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="7" class="active"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="ironman1.png" alt="ironman" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="hulk1.jpg" alt="hulk" width="460" height="345">
+      </div>
+    
+      <div class="item">
+        <img src="thor1.jpg" alt="thor" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="captain america1.jpg" alt="captain america" width="460" height="345">
+      </div>
+       <div class="item active">
+        <img src="black widow1.jpg" alt="black widow" width="460" height="345">
+      </div>
+       <div class="item active">
+        <img src="hawkeye1.jpg" alt="hawkeye" width="460" height="345">
+      </div>
+      <div class="item active">
+        <img src="quicksilver1.jpg" alt="quicksilver" width="460" height="345">
+      </div>
+      <div class="item active">
+        <img src="scarlet witch1.jpg" alt="scarlet witch" width="460" height="345">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<div class="container">
+<center>
+  <h2 id="p2" >Characters</h2>
+  <p id="p3">This table is for introducing Marvel Characters</p>     
+  </center>       
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Symbol</th>
+        <th>Comtext</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="ironman symbol.jpg" alt="Chania" width="100" height="100"></td>
+        <td><div class="container">
+  <h2></h2>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo1">Iron man</button>
+  <div id="demo1" class="collapse in">
+    Iron Man (Tony Stark) is a fictional superhero appearing in American comic books published by Marvel Comics, as well as its associated media. The character was created by writer and editor Stan Lee, developed by scripter Larry Lieber, and designed by artists Don Heck and Jack Kirby. He made his first appearance in Tales of Suspense #39 (cover dated March 1963).
+    An American billionaire playboy, business magnate, and ingenious engineer, Tony Stark suffers a severe chest injury during a kidnapping in which his captors attempt to force him to build a weapon of mass destruction. He instead creates a powered suit of armor to save his life and escape captivity. Later, Stark augments his suit with weapons and other technological devices he designed through his company, Stark Industries. He uses the suit and successive versions to protect the world as Iron Man, while at first concealing his true identity. Initially, Iron Man was a vehicle for Stan Lee to explore Cold War themes, particularly the role of American technology and business in the fight against communism.[1] Subsequent re-imaginings of Iron Man have transitioned from Cold War themes to contemporary concerns, such as corporate crime and terrorism.
+  </div>
+</div>
+</td>
+      </tr>
+      <tr>
+        <td><img src="hulk symbol.jpg" alt="Chania" width="100" height="100"></td>
+        <td><div class="container">
+  <h2></h2>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo2">Hulk</button>
+  <div id="demo2" class="collapse in">
+The Hulk is a fictional superhero appearing in American comic books published by Marvel Comics. The character was created by Stan Lee and Jack Kirby, and first appeared in The Incredible Hulk #1 (May 1962). Throughout his comic book appearances, the Hulk is portrayed as a large green humanoid that possesses superhuman strength and invulnerability, attributes that grow more potent the angrier he becomes. Hulk is the alter ego of Bruce Banner, a socially withdrawn and emotionally reserved physicist who physically transforms into the Hulk under emotional stress and other specific circumstances at will or against it; these involuntary transformations lead to many complications in Banner's life. When transformed, the Hulk often acts as a dissociated personality separate from Banner. Over the decades of Hulk stories, the Hulk has been represented with several personalities based on Hulk and Banner's fractured psyche, ranging from mindless savage to brilliant warrior, and Banner has taken control of the Hulk's form on occasion. Banner first transforms into the Hulk after being caught in the blast of the gamma bomb he invented while saving Rick Jones, a youth who had wandered onto the testing range.
+ </div>
+</td>
+      </tr>
+      <tr>
+        <td><img src="captain america symbol.png" alt="Chania" width="100" height="100"></td>
+        <td><div class="container">
+  <h2></h2>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo3">Captain America</button>
+  <div id="demo3" class="collapse in">Captain America is a fictional superhero appearing in American comic books published by Marvel Comics. Created by cartoonists Joe Simon and Jack Kirby, the character first appeared in Captain America Comics #1 (cover dated March 1941) from Timely Comics, a predecessor of Marvel Comics. Captain America was designed as a patriotic supersoldier who often fought the Axis powers of World War II and was Timely Comics' most popular character during the wartime period. The popularity of superheroes waned following the war and the Captain America comic book was discontinued in 1950, with a short-lived revival in 1953. Since Marvel Comics revived the character in 1964, Captain America has remained in publication.
+Captain America was the first Marvel Comics character to have appeared in media outside comics with the release of the 1944 movie serial, Captain America. Since then, the character has been featured in other films and television series, more recently in the Marvel Cinematic Universe (MCU) portrayed by Chris Evans in Captain America: The First Avenger, The Avengers, Captain America: The Winter Soldier, Avengers: Age of Ultron, and the upcoming film Captain America: Civil War.
+</div>
+</td>
+      </tr>
+<tr>
+        <td><img src="thor symbol.jpg" alt="Chania" width="100" height="100"></td>
+        <td><div class="container">
+  <h2></h2>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo4">Thor</button>
+  <div id="demo4" class="collapse in">In Norse mythology, Thor (/θɔːr/; from Old Norse Þórr) is a hammer-wielding god associated with thunder, lightning, storms, oak trees, strength, the protection of mankind, and also hallowing, healing and fertility. The cognate deity in wider Germanic mythology and paganism was known in Old English as Þunor and in Old High German as Donar (runic þonar ᚦᛟᚾᚨᚱ), stemming from a Common Germanic *Þunraz (meaning "thunder").
+
+Ultimately stemming from Proto-Indo-European religion, Thor is a prominently mentioned god throughout the recorded history of the Germanic peoples, from the Roman occupation of regions of Germania, to the tribal expansions of the Migration Period, to his high popularity during the Viking Age, when, in the face of the process of the Christianization of Scandinavia, emblems of his hammer, Mjölnir, were worn in defiance and Norse pagan personal names containing the name of the god bear witness to his popularity. Into the modern period, Thor continued to be acknowledged in rural folklore throughout Germanic regions. Thor is frequently referred to in place names, the day of the week Thursday ("Thor's day"; Old English Thunresdæg, Thunor's day; German "Donnerstag" Donar's day; Dutch "donderdag") bears his name, and names stemming from the pagan period containing his own continue to be used today.
+</div>
+</td>
+    </tr>
+<tr>
+        <td><img src="black widow symbol.jpg" alt="Chania" width="100" height="100"></td>
+        <td><div class="container">
+  <h2></h2>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo5">Black Widow</button>
+  <div id="demo5" class="collapse in">Black Widow (Russian: Чёрная вдова, transliterated Chyornaya Vdova) (Natalia Alianovna "Natasha" Romanova,[1] Russian: Наталья Альяновна "Наташа" Романова , also known as Natasha Romanoff) is a fictional superhero appearing in American comic books published by Marvel Comics. Created by editor and plotter Stan Lee, scripter Don Rico, and artist Don Heck, the character first appeared in Tales of Suspense No. 52 (April 1964). The character was first introduced as a Russian spy, an antagonist of the superhero Iron Man. She later defected to the United States, becoming an agent of the fictional spy agency S.H.I.E.L.D., and a member of the superhero team the Avengers.
+
+Scarlett Johansson portrayed the character in the films Iron Man 2 (2010), Marvel's The Avengers (2012), Captain America: The Winter Soldier (2014), and Avengers: Age of Ultron (2015) and is set to reprise the role in Captain America: Civil War (2016) as a part of the Marvel Cinematic Universe franchise.
+</div>
+</td>
+    </tr>
+<tr>
+        <td><img src="hawkeye symbol.png" alt="Chania" width="100" height="100"></td>
+        <td><div class="container">
+  <h2></h2>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo6">Hawkeye</button>
+  <div id="demo6" class="collapse in">Hawkeye (Clint Barton) is a fictional superhero appearing in American comic books published by Marvel Comics. Created by writer Stan Lee and artist Don Heck, the character first appeared as a villain in Tales of Suspense #57 (Sept. 1964) and later joined the Avengers in Avengers #16 (May 1965). He has been a prominent member of the team ever since. He was also ranked at #44 on IGN's Top 100 Comic Book Heroes list.[2]
+
+Hawkeye is portrayed by Jeremy Renner in the Marvel Cinematic Universe, a shared fictional universe that is the setting of films produced by Marvel Studios. Renner first made an uncredited cameo appearance in Thor (2011) and later played a larger role in The Avengers (2012) and Avengers: Age of Ultron (2015). He is reprising the role in the upcoming film Captain America: Civil War (2016).
+</div>
+</td>
+    </tr>    
+<tr>
+        <td><img src="quicksilver symbol.jpg" alt="Chania" width="100" height="100"></td>
+        <td><div class="container">
+  <h2></h2>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo7">Quicksilver</button>
+  <div id="demo7" class="collapse in">Quicksilver (Pietro Maximoff) is a fictional superhero appearing in American comic books published by Marvel Comics. The character first appeared in the comic book X-Men #4 (March 1964) and was created by Stan Lee and Jack Kirby.
+
+Quicksilver has the superhuman ability to move at great speeds. In most depictions, he is a "mutant", a human born with natural superhuman powers. In comic book stories beginning in 2015, he is the product of genetic experimentation by the High Evolutionary.[1] Quicksilver most commonly appears in fiction associated with the X-Men, having been introduced as an adversary for the superhero team. In later stories, he became a superhero himself. He is the twin brother of the Scarlet Witch and, in most depictions, the son of Magneto.
+
+Debuting in the Silver Age of comic books, Quicksilver has featured in several decades of Marvel continuity, starring in the self-titled series Quicksilver and as a regular team member in superhero title the Avengers. The character has also appeared in a range of movie, television, and video game adaptations. Two separate live-action versions of the character have been adapted by two different film studios: Aaron Taylor-Johnson portrays the character in a mid-credits cameo in the Marvel Studios film Captain America: The Winter Soldier and reprises the role as a supporting character in Avengers: Age of Ultron as a part of the Marvel Cinematic Universe, while Evan Peters portrayed Quicksilver in the film X-Men: Days of Future Past and will reprise the role in X-Men: Apocalypse.
+</div>
+</td>
+    </tr>
+<tr>
+        <td><img src="scarlet witch symbol.jpg" alt="Chania" width="100" height="100"></td>
+        <td><div class="container">
+  <h2></h2>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo8">Scarlet witch</button>
+  <div id="demo8" class="collapse in">Scarlet Witch is initially depicted as a mutant, born with the ability to alter reality in unspecific ways. Originally introduced as the daughter of the Golden Age superhero Whizzer, a retcon later established she and her twin brother Quicksilver were the children of X-Men villain Magneto. This parentage was their status quo until 2014, when a further retcon revealed that she and Quicksilver were in fact non-mutants who had been kidnapped and experimented on by the High Evolutionary, and then misled to believe that Magneto was their father.[1]
+
+The character was ranked 97th in Wizard's "200 Greatest Comic Book Characters of All Time" list,[2] 12th in IGN's list of "The Top 50 Avengers",[3] and 14th in Comics Buyer's Guide's "100 Sexiest Women in Comics" list.[4] The character has also appeared in other Marvel-endorsed products such as animated films; arcade and video games; television series and merchandise such as action figures and trading cards. Elizabeth Olsen portrays the Scarlet Witch in the Marvel Cinematic Universe; a mid-credits scene in Captain America: The Winter Soldier, a central role in Avengers: Age of Ultron, and will reprise the role in Captain America: Civil War.
+</div>
+</td>
+    </tr>
+          
+
+    </tbody>
+  </table>
+</div>
+
+
+
+</body>
+
